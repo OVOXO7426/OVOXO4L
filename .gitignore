@@ -1,0 +1,6 @@
+out/
+out-preview/
+out-test/
+*.class
+.DS_Store
+__pycache__/

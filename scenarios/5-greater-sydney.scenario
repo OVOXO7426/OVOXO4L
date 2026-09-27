@@ -1,0 +1,112 @@
+id: dense
+name: 5. Greater Sydney - showcase (not in viva)
+focus: Forty passengers across twenty stops, released over the first 40 ticks of 1 January and 2 January. A showcase only; it is not used in the viva.
+start: 0
+
+stop: Parramatta | 2 | 5 | TRAIN
+stop: Harris Park | 5 | 5 | TRAIN
+stop: Granville | 8 | 7 | TRAIN
+stop: Auburn | 11 | 7 | TRAIN
+stop: Lidcombe | 14 | 9 | TRAIN
+stop: Strathfield | 18 | 9 | TRAIN
+stop: Burwood | 21 | 11 | TRAIN
+stop: Redfern | 25 | 13 | TRAIN
+stop: Central | 28 | 13 | TRAIN
+stop: Town Hall | 31 | 11 | TRAIN
+stop: Bondi Beach | 34 | 4 | BUS
+stop: Bondi Junction | 31 | 6 | BUS
+stop: Paddington | 28 | 8 | BUS
+stop: Moore Park | 25 | 17 | BUS
+stop: Surry Hills | 22 | 15 | BUS
+stop: Railway Square | 19 | 17 | BUS
+stop: Broadway | 16 | 19 | BUS
+stop: Glebe | 12 | 18 | BUS
+stop: Camperdown | 8 | 20 | BUS
+stop: Newtown | 4 | 18 | BUS
+
+vehicle: Train | Dense train east | Parramatta | TRAIN
+vehicle: Train | Dense train west | Town Hall | TRAIN
+vehicle: Bus | Dense bus west | Bondi Beach | BUS
+vehicle: Bus | Dense bus east | Newtown | BUS
+
+passenger: p1 | adult | Passenger 1
+passenger: p2 | concession | Passenger 2 | A | 61
+passenger: p3 | adult | Passenger 3
+passenger: p4 | concession | Passenger 4 | V | 63
+passenger: p5 | adult | Passenger 5
+passenger: p6 | concession | Passenger 6 | D | 65
+passenger: p7 | adult | Passenger 7
+passenger: p8 | concession | Passenger 8 | AD | 67
+passenger: p9 | adult | Passenger 9
+passenger: p10 | concession | Passenger 10 | A | 69
+passenger: p11 | adult | Passenger 11
+passenger: p12 | concession | Passenger 12 | V | 71
+passenger: p13 | adult | Passenger 13
+passenger: p14 | concession | Passenger 14 | D | 73
+passenger: p15 | adult | Passenger 15
+passenger: p16 | concession | Passenger 16 | AD | 75
+passenger: p17 | adult | Passenger 17
+passenger: p18 | concession | Passenger 18 | A | 77
+passenger: p19 | adult | Passenger 19
+passenger: p20 | concession | Passenger 20 | V | 79
+passenger: p21 | adult | Passenger 21
+passenger: p22 | concession | Passenger 22 | D | 81
+passenger: p23 | adult | Passenger 23
+passenger: p24 | concession | Passenger 24 | AD | 83
+passenger: p25 | adult | Passenger 25
+passenger: p26 | concession | Passenger 26 | A | 85
+passenger: p27 | adult | Passenger 27
+passenger: p28 | concession | Passenger 28 | V | 87
+passenger: p29 | adult | Passenger 29
+passenger: p30 | concession | Passenger 30 | D | 89
+passenger: p31 | adult | Passenger 31
+passenger: p32 | concession | Passenger 32 | AD | 91
+passenger: p33 | adult | Passenger 33
+passenger: p34 | concession | Passenger 34 | A | 93
+passenger: p35 | adult | Passenger 35
+passenger: p36 | concession | Passenger 36 | V | 95
+passenger: p37 | adult | Passenger 37
+passenger: p38 | concession | Passenger 38 | D | 97
+passenger: p39 | adult | Passenger 39
+passenger: p40 | concession | Passenger 40 | AD | 99
+
+book: 0 | p1 | Parramatta > Harris Park > Granville > Auburn > Lidcombe > Strathfield > Burwood > Redfern > Central > Town Hall
+book: 1 | p2 | Harris Park > Granville > Auburn > Lidcombe > Strathfield > Burwood > Redfern > Central
+book: 2 | p3 | Granville > Auburn > Lidcombe > Strathfield > Burwood
+book: 3 | p4 | Auburn > Lidcombe > Strathfield > Burwood > Redfern
+book: 4 | p5 | Lidcombe > Strathfield > Burwood > Redfern > Central > Town Hall
+book: 5 | p6 | Town Hall > Central > Redfern > Burwood > Strathfield > Lidcombe > Auburn > Granville > Harris Park > Parramatta
+book: 6 | p7 | Central > Redfern > Burwood > Strathfield > Lidcombe > Auburn > Granville > Harris Park
+book: 7 | p8 | Redfern > Burwood > Strathfield > Lidcombe > Auburn > Granville
+book: 8 | p9 | Burwood > Strathfield > Lidcombe > Auburn
+book: 9 | p10 | Strathfield > Lidcombe > Auburn > Granville > Harris Park
+book: 10 | p11 | Bondi Beach > Bondi Junction > Paddington > Moore Park > Surry Hills > Railway Square > Broadway > Glebe > Camperdown > Newtown
+book: 11 | p12 | Bondi Junction > Paddington > Moore Park > Surry Hills > Railway Square > Broadway > Glebe > Camperdown
+book: 12 | p13 | Paddington > Moore Park > Surry Hills > Railway Square > Broadway
+book: 13 | p14 | Moore Park > Surry Hills > Railway Square > Broadway > Glebe
+book: 14 | p15 | Surry Hills > Railway Square > Broadway > Glebe > Camperdown > Newtown
+book: 15 | p16 | Newtown > Camperdown > Glebe > Broadway > Railway Square > Surry Hills > Moore Park > Paddington > Bondi Junction > Bondi Beach
+book: 16 | p17 | Camperdown > Glebe > Broadway > Railway Square > Surry Hills > Moore Park > Paddington > Bondi Junction
+book: 17 | p18 | Glebe > Broadway > Railway Square > Surry Hills > Moore Park > Paddington
+book: 18 | p19 | Broadway > Railway Square > Surry Hills > Moore Park
+book: 19 | p20 | Railway Square > Surry Hills > Moore Park > Paddington > Bondi Junction
+book: 20 | p21 | Parramatta > Harris Park > Granville > Auburn > Lidcombe > Strathfield > Burwood > Redfern > Central > Town Hall
+book: 21 | p22 | Harris Park > Granville > Auburn > Lidcombe > Strathfield > Burwood > Redfern > Central
+book: 22 | p23 | Granville > Auburn > Lidcombe > Strathfield > Burwood
+book: 23 | p24 | Auburn > Lidcombe > Strathfield > Burwood > Redfern
+book: 24 | p25 | Lidcombe > Strathfield > Burwood > Redfern > Central > Town Hall
+book: 25 | p26 | Town Hall > Central > Redfern > Burwood > Strathfield > Lidcombe > Auburn > Granville > Harris Park > Parramatta
+book: 26 | p27 | Central > Redfern > Burwood > Strathfield > Lidcombe > Auburn > Granville > Harris Park
+book: 27 | p28 | Redfern > Burwood > Strathfield > Lidcombe > Auburn > Granville
+book: 28 | p29 | Burwood > Strathfield > Lidcombe > Auburn
+book: 29 | p30 | Strathfield > Lidcombe > Auburn > Granville > Harris Park
+book: 30 | p31 | Bondi Beach > Bondi Junction > Paddington > Moore Park > Surry Hills > Railway Square > Broadway > Glebe > Camperdown > Newtown
+book: 31 | p32 | Bondi Junction > Paddington > Moore Park > Surry Hills > Railway Square > Broadway > Glebe > Camperdown
+book: 32 | p33 | Paddington > Moore Park > Surry Hills > Railway Square > Broadway
+book: 33 | p34 | Moore Park > Surry Hills > Railway Square > Broadway > Glebe
+book: 34 | p35 | Surry Hills > Railway Square > Broadway > Glebe > Camperdown > Newtown
+book: 35 | p36 | Newtown > Camperdown > Glebe > Broadway > Railway Square > Surry Hills > Moore Park > Paddington > Bondi Junction > Bondi Beach
+book: 36 | p37 | Camperdown > Glebe > Broadway > Railway Square > Surry Hills > Moore Park > Paddington > Bondi Junction
+book: 37 | p38 | Glebe > Broadway > Railway Square > Surry Hills > Moore Park > Paddington
+book: 38 | p39 | Broadway > Railway Square > Surry Hills > Moore Park
+book: 40 | p40 | Railway Square > Surry Hills > Moore Park > Paddington > Bondi Junction

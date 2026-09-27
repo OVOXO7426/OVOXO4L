@@ -1,0 +1,25 @@
+id: harbour
+name: 4. Harbour and light rail - holiday to normal day
+focus: Starts at midday on 1 January (a public holiday). A train and a tram advance differently on every tick; trips booked after midnight pay the normal fare.
+start: 12
+
+stop: Chatswood | 6 | 4 | TRAIN
+stop: North Sydney | 14 | 7 | TRAIN
+stop: Wynyard | 20 | 10 | TRAIN
+stop: Central Chalmers St | 18 | 18 | TRAM
+stop: Surry Hills | 22 | 19 | TRAM
+stop: Moore Park | 26 | 17 | TRAM
+stop: UNSW High St | 31 | 20 | TRAM
+
+vehicle: Train | Harbour 1 | Chatswood | TRAIN
+vehicle: Tram | Light Rail 1 | Central Chalmers St | TRAM
+
+passenger: p1 | adult | Passenger 1
+passenger: p2 | concession | Passenger 2 | DV | 52
+passenger: p3 | adult | Passenger 3
+
+book: 0 | p1 | Chatswood > North Sydney > Wynyard
+book: 0 | p2 | Central Chalmers St > Surry Hills > Moore Park > UNSW High St
+book: 14 | p1 | Wynyard > North Sydney > Chatswood
+book: 14 | p2 | UNSW High St > Moore Park > Surry Hills > Central Chalmers St
+book: 14 | p3 | UNSW High St > Moore Park > Surry Hills > Central Chalmers St

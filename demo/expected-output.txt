@@ -1,0 +1,21 @@
+== day 0 (1 January) ==
+  tick=0 day=0 holiday=true
+  T1 Ava Central -> Bondi Junction (12): base 300, day fare 150, final 150
+  T2 Ava Bondi Junction -> Central (12): base 300, day fare 0, final 0
+  T3 Ben Central -> Bondi Junction (12): base 300, day fare 150, final 75
+== four ticks ==
+  tick 1: B1=1 IN_SERVICE, T1=4 AT_STOP, L1=1 APPROACHING
+  tick 2: B1=2 IN_SERVICE, T1=4 IN_SERVICE, L1=3 IN_SERVICE
+  tick 3: B1=3 IN_SERVICE, T1=8 AT_STOP, L1=4 APPROACHING
+  tick 4: B1=4 IN_SERVICE, T1=8 IN_SERVICE, L1=6 IN_SERVICE
+== day 1 ==
+  tick=24 day=1 holiday=false
+  T4 Ava Central -> Bondi Junction (12): base 300, day fare 300, final 300
+  T5 Ben Central -> Bondi Junction (12): base 300, day fare 300, final 150
+  T6 Cal Central -> Bondi Junction (12): base 300, day fare 300, final 300
+== rejected ==
+  null passenger rejected; tickets=6
+  concession type S rejected
+== totals ==
+  tickets=6 revenue=975
+  clearing a copy of tickets() leaves tickets=6

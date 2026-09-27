@@ -1,0 +1,27 @@
+id: west
+name: 3. Western Sydney - public holiday
+focus: 1 January is a public holiday: each passenger's first trip that day is half price and every later trip that day is free.
+start: 0
+
+stop: Parramatta | 3 | 12 | TRAIN
+stop: Harris Park | 7 | 12 | TRAIN
+stop: Granville | 11 | 10 | TRAIN
+stop: Lidcombe | 16 | 10 | TRAIN
+stop: Strathfield | 21 | 12 | TRAIN
+stop: Redfern | 28 | 14 | TRAIN
+stop: Central | 33 | 14 | TRAIN
+
+vehicle: Train | Western 1 | Parramatta | TRAIN
+vehicle: Train | Western 2 | Central | TRAIN
+
+passenger: p1 | adult | Passenger 1
+passenger: p2 | adult | Passenger 2
+passenger: p3 | concession | Passenger 3 | D | 34
+passenger: p4 | concession | Passenger 4 | A | 67
+
+book: 0 | p1 | Parramatta > Harris Park > Granville > Lidcombe > Strathfield > Redfern > Central
+book: 0 | p2 | Parramatta > Harris Park > Granville > Lidcombe > Strathfield > Redfern > Central
+book: 0 | p3 | Parramatta > Harris Park > Granville > Lidcombe > Strathfield > Redfern > Central
+book: 0 | p4 | Parramatta > Harris Park > Granville > Lidcombe > Strathfield > Redfern > Central
+book: 21 | p1 | Central > Redfern > Strathfield > Lidcombe > Granville > Harris Park > Parramatta
+book: 21 | p3 | Central > Redfern > Strathfield > Lidcombe > Granville > Harris Park > Parramatta

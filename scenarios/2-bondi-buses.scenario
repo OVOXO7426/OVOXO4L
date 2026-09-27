@@ -1,0 +1,26 @@
+id: bondi
+name: 2. Bondi buses - adult and concession
+focus: Six passengers share one bus trip on 2 January (a normal day): adults pay the day fare, eligible concession passengers pay half, and an aged (A) concession under 65 pays in full.
+start: 24
+
+stop: Bondi Beach | 34 | 5 | BUS
+stop: Bondi Junction | 29 | 9 | BUS
+stop: Paddington | 23 | 11 | BUS
+stop: Surry Hills | 17 | 14 | BUS
+stop: Railway Square | 11 | 17 | BUS
+
+vehicle: Bus | Bondi 1 | Bondi Beach | BUS
+
+passenger: p1 | adult | Passenger 1
+passenger: p2 | concession | Passenger 2 | A | 72
+passenger: p3 | adult | Passenger 3
+passenger: p4 | concession | Passenger 4 | DV | 45
+passenger: p5 | adult | Passenger 5
+passenger: p6 | concession | Passenger 6 | A | 58
+
+book: 0 | p1 | Bondi Beach > Bondi Junction > Paddington > Surry Hills > Railway Square
+book: 0 | p2 | Bondi Beach > Bondi Junction > Paddington > Surry Hills > Railway Square
+book: 0 | p3 | Bondi Beach > Bondi Junction > Paddington > Surry Hills > Railway Square
+book: 0 | p4 | Bondi Beach > Bondi Junction > Paddington > Surry Hills > Railway Square
+book: 0 | p5 | Bondi Beach > Bondi Junction > Paddington > Surry Hills > Railway Square
+book: 0 | p6 | Bondi Beach > Bondi Junction > Paddington > Surry Hills > Railway Square
